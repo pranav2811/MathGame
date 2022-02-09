@@ -24,6 +24,8 @@ public class GameMultiplication extends AppCompatActivity {
 
     Button ok;
     Button next;
+    Button back;
+
     Random random = new Random();
     int number1;
     int number2;
@@ -53,6 +55,7 @@ public class GameMultiplication extends AppCompatActivity {
 
         ok = findViewById(R.id.buttonOkMulti);
         next = findViewById(R.id.buttonNextMulti);
+        back = findViewById(R.id.buttonMultiBack);
 
         gameContinue();
 
@@ -87,6 +90,15 @@ public class GameMultiplication extends AppCompatActivity {
                 else{
                     gameContinue();
                 }
+            }
+        });
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 

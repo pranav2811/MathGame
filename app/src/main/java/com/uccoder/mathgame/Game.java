@@ -24,6 +24,8 @@ public class Game extends AppCompatActivity {
 
     Button ok;
     Button next;
+    Button back;
+
     Random random = new Random();
     int number1;
     int number2;
@@ -50,6 +52,7 @@ public class Game extends AppCompatActivity {
         answer = findViewById(R.id.editTextAnswerAdd);
         ok = findViewById(R.id.buttonOkAdd);
         next = findViewById(R.id.buttonNextAdd);
+        back = findViewById(R.id.buttonAddBack);
 
         gameContinue();
 
@@ -73,6 +76,15 @@ public class Game extends AppCompatActivity {
 
                 }
 
+
+            }
+        });
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                startActivity(intent);
+                finish();
 
             }
         });

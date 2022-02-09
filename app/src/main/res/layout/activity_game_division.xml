@@ -83,31 +83,46 @@ android:hint="Please write your answer here"
 android:inputType="textPersonName"
 android:textColor="#F6F0F0" />
 
-<LinearLayout
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-<Button
-    android:id="@+id/buttonOkDiv"
-    android:layout_width="150dp"
-    android:layout_height="wrap_content"
-    android:layout_marginLeft="20dp"
-    android:layout_marginTop="30dp"
-    android:layout_marginRight="20dp"
-    android:layout_weight="1"
-    android:backgroundTint="@color/material_dynamic_primary70"
-    android:text="OK" />
+        <Button
+            android:id="@+id/buttonOkDiv"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/material_dynamic_primary70"
+            android:text="OK" />
 
-<Button
-    android:id="@+id/buttonNextDiv"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginLeft="20dp"
-    android:layout_marginTop="30dp"
-    android:layout_marginRight="20dp"
-    android:layout_weight="1"
-    android:backgroundTint="@color/material_dynamic_primary70"
-    android:text="Next Question" />
-</LinearLayout>
+        <Button
+            android:id="@+id/buttonNextDiv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/material_dynamic_primary70"
+            android:text="Next Question" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDivBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/material_dynamic_primary70"
+            android:text="go back to main menu" />
+    </LinearLayout>
 </LinearLayout>

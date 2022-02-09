@@ -24,6 +24,8 @@ public class GameSubtraction extends AppCompatActivity {
 
     Button ok;
     Button next;
+    Button back;
+
     Random random = new Random();
 
     int number1;
@@ -56,6 +58,7 @@ public class GameSubtraction extends AppCompatActivity {
         answer = findViewById(R.id.editTextAnswerSub);
         ok = findViewById(R.id.buttonOkSub);
         next = findViewById(R.id.buttonNextSub);
+        back = findViewById(R.id.buttonSubBack);
 
         gameContinue();
 
@@ -94,6 +97,15 @@ public class GameSubtraction extends AppCompatActivity {
                     life.setText(""+userLife);
                     question.setText("Sorry Your Answer is Wrong!");
                 }
+            }
+        });
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 

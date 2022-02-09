@@ -26,6 +26,8 @@ public class GameDivision extends AppCompatActivity {
 
     Button ok;
     Button next;
+    Button back;
+
     Random random = new Random();
     int number1;
     int number2;
@@ -55,6 +57,7 @@ public class GameDivision extends AppCompatActivity {
         answer = findViewById(R.id.editTextAnswerDiv);
         ok = findViewById(R.id.buttonOkDiv);
         next = findViewById(R.id.buttonNextDiv);
+        back = findViewById(R.id.buttonDivBack);
 
         gameContinue();
 
@@ -99,6 +102,14 @@ public class GameDivision extends AppCompatActivity {
                     gameContinue();
                 }
 
+            }
+        });
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
