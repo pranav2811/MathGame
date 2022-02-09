@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     Button addition;
     Button subtraction;
     Button multi;
+    Button division;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         addition = findViewById(R.id.buttonAdd);
         subtraction = findViewById(R.id.buttonSub);
         multi = findViewById(R.id.buttonMulti);
+        division = findViewById(R.id.buttonDiv);
 
 
 
@@ -46,6 +48,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, GameMultiplication.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        division.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, game_division.class);
                 startActivity(intent);
                 finish();
             }

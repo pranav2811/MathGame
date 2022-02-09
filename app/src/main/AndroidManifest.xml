@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MathGame">
         <activity
+            android:name=".game_division"
+            android:exported="false" />
+        <activity
             android:name=".GameMultiplication"
             android:exported="false" />
         <activity

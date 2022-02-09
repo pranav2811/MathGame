@@ -23,7 +23,7 @@
             android:textColor="#FFFFFF" />
 
         <TextView
-            android:id="@+id/textViewScoreMulti"
+            android:id="@+id/textViewScoreDiv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -39,7 +39,7 @@
             android:textColor="#FFFFFF" />
 
         <TextView
-            android:id="@+id/textViewLifeMulti"
+            android:id="@+id/textViewLifeDiv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -55,7 +55,7 @@
             android:textColor="#FFFFFF" />
 
         <TextView
-            android:id="@+id/textViewTimeMulti"
+            android:id="@+id/textViewTimeDiv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -65,7 +65,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textViewQuestionMulti"
+        android:id="@+id/textViewQuestionDiv"
         android:layout_width="200dp"
         android:layout_height="100dp"
         android:layout_marginTop="20dp"
@@ -75,7 +75,7 @@
         android:textSize="24sp" />
 
     <EditText
-        android:id="@+id/editTextAnswerMulti"
+        android:id="@+id/editTextAnswerDiv"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
@@ -90,7 +90,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/buttonOkMulti"
+            android:id="@+id/buttonOkDiv"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -101,7 +101,7 @@
             android:text="OK" />
 
         <Button
-            android:id="@+id/buttonNextMulti"
+            android:id="@+id/buttonNextDiv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"

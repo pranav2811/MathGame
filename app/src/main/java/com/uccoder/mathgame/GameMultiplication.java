@@ -45,14 +45,14 @@ public class GameMultiplication extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game_multiplication);
 
-        score = findViewById(R.id.textViewScoreMulti);
-        life = findViewById(R.id.textViewLifeMulti);
-        time = findViewById(R.id.textViewTimeMulti);
-        question = findViewById(R.id.textViewQuestionMulti);
-        answer = findViewById(R.id.editTextAnswerMulti);
+        score = findViewById(R.id.textViewScoreDiv);
+        life = findViewById(R.id.textViewLifeDiv);
+        time = findViewById(R.id.textViewTimeDiv);
+        question = findViewById(R.id.textViewQuestionDiv);
+        answer = findViewById(R.id.editTextAnswerDiv);
 
-        ok = findViewById(R.id.buttonOkMulti);
-        next = findViewById(R.id.buttonNextMulti);
+        ok = findViewById(R.id.buttonOkDiv);
+        next = findViewById(R.id.buttonNextDiv);
 
 
         ok.setOnClickListener(new View.OnClickListener() {
