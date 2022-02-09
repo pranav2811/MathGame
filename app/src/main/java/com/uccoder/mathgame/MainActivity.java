@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         division.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, game_division.class);
+                Intent intent = new Intent(MainActivity.this, GameDivision.class);
                 startActivity(intent);
                 finish();
             }

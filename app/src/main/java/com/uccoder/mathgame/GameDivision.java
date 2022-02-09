@@ -11,7 +11,7 @@ import android.widget.TextView;
 import java.util.Random;
 
 
-public class game_division extends AppCompatActivity {
+public class GameDivision extends AppCompatActivity {
     TextView score;
     TextView life;
     TextView time;
