@@ -49,13 +49,13 @@ public class GameSubtraction extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game_subtraction);
 
-        score = findViewById(R.id.textViewScoreDiv);
-        life = findViewById(R.id.textViewLifeDiv);
-        time = findViewById(R.id.textViewTimeDiv);
-        question = findViewById(R.id.textViewQuestionDiv);
-        answer = findViewById(R.id.editTextAnswerDiv);
-        ok = findViewById(R.id.buttonOkDiv);
-        next = findViewById(R.id.buttonNextDiv);
+        score = findViewById(R.id.textViewScoreSub);
+        life = findViewById(R.id.textViewLifeSub);
+        time = findViewById(R.id.textViewTimeSub);
+        question = findViewById(R.id.textViewQuestionSub);
+        answer = findViewById(R.id.editTextAnswerSub);
+        ok = findViewById(R.id.buttonOkSub);
+        next = findViewById(R.id.buttonNextSub);
 
         gameContinue();
 

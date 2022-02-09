@@ -43,13 +43,13 @@ public class Game extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
-        score = findViewById(R.id.textViewScoreDiv);
-        life = findViewById(R.id.textViewLifeDiv);
-        time = findViewById(R.id.textViewTimeDiv);
-        question = findViewById(R.id.textViewQuestionDiv);
-        answer = findViewById(R.id.editTextAnswerDiv);
-        ok = findViewById(R.id.buttonOkDiv);
-        next = findViewById(R.id.buttonNextDiv);
+        score = findViewById(R.id.textViewScoreAdd);
+        life = findViewById(R.id.textViewLifeAdd);
+        time = findViewById(R.id.textViewTimeAdd);
+        question = findViewById(R.id.textViewQuestionAdd);
+        answer = findViewById(R.id.editTextAnswerAdd);
+        ok = findViewById(R.id.buttonOkAdd);
+        next = findViewById(R.id.buttonNextAdd);
 
         gameContinue();
 

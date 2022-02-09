@@ -7,7 +7,7 @@
     android:background="@drawable/second"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".Game">
+    tools:context=".GameSubtraction">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
             android:textColor="#FFFFFF" />
 
         <TextView
-            android:id="@+id/textViewScoreDiv"
+            android:id="@+id/textViewScoreSub"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -39,7 +39,7 @@
             android:textColor="#FFFFFF" />
 
         <TextView
-            android:id="@+id/textViewLifeDiv"
+            android:id="@+id/textViewLifeSub"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -55,7 +55,7 @@
             android:textColor="#FFFFFF" />
 
         <TextView
-            android:id="@+id/textViewTimeDiv"
+            android:id="@+id/textViewTimeSub"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -65,7 +65,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textViewQuestionDiv"
+        android:id="@+id/textViewQuestionSub"
         android:layout_width="200dp"
         android:layout_height="100dp"
         android:layout_marginTop="20dp"
@@ -75,7 +75,7 @@
         android:textSize="24sp" />
 
     <EditText
-        android:id="@+id/editTextAnswerDiv"
+        android:id="@+id/editTextAnswerSub"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
@@ -90,7 +90,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/buttonOkDiv"
+            android:id="@+id/buttonOkSub"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -101,7 +101,7 @@
             android:text="OK" />
 
         <Button
-            android:id="@+id/buttonNextDiv"
+            android:id="@+id/buttonNextSub"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
